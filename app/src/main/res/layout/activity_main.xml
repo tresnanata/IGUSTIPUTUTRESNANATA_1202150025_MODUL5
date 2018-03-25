@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/coordinatorId"
+    tools:ignore="InvalidId"
     tools:context="com.example.khimi.igustipututresnanata_1202150025_modul5.MainActivity">
 
     <LinearLayout
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content">
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
-            android:padding="16dp"
+            android:padding="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         </android.support.v7.widget.RecyclerView>
